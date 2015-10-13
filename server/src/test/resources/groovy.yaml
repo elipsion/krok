@@ -1,0 +1,8 @@
+endpoints:
+  ping:
+    type: groovyScript
+    script: |
+      print "Pong";
+      return 200;
+    methods:
+      - GET

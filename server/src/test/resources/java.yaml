@@ -1,0 +1,6 @@
+endpoints:
+  ping:
+    type: module
+    module: "com.spotify.krok.plugins.ping:ping:0.1.0-SNAPSHOT:com.spotify.krok.plugins.Ping"
+    methods:
+      - GET
